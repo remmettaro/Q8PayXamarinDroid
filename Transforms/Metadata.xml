@@ -1,0 +1,92 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  
+  
+
+  -->
+  <!--<remove-node  path="/api/package[@name='it.q8.q8pay.sdk.api']/class[@name='Q8payAPI']" />
+  <remove-node  path="/api/package[@name='it.q8.q8pay.sdk.api']/class[@name='Q8PayJWTAuth']" />-->
+
+
+  <!--<remove-node path="/api/package[@name='it.q8.q8pay.sdk.api']/class[@name='Q8PayJWTAuth']/method[@name='ThresholdClass']" />
+  <remove-node path="/api/package[@name='it.q8.q8pay.sdk.api']/class[@name='Q8PayJWTAuth']/method[@name='ThresholdType']" />
+  <remove-node path="/api/package[@name='it.q8.q8pay.sdk.api']/class[@name='Q8PayJWTAuth']/method[@name='JniPeerMembers']" />
+  <remove-node path="/api/package[@name='it.q8.q8pay.sdk.api']/class[@name='Q8PayJWTAuth']/method[@name='GetCards']" />
+
+
+
+  <remove-node path="/api/package[@name='it.q8.q8pay.sdk.api']/class[@name='Q8PayJWTAuth.Builder']/method[@name='build' and count(parameter)=0]" />
+  <remove-node path="/api/package[@name='it.q8.q8pay.sdk.api']/class[@name='Q8payAPI.Builder']/method[@name='build' and count(parameter)=0]" />
+
+  <remove-node path="/api/package[@name='it.q8.q8pay.sdk.api']/class[@name='Q8PayJWTAuth']/method[@name='undoCode' and count(parameter)=4 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='java.lang.String'] and parameter[3][@type='java.lang.String'] and parameter[4][@type='it.q8.q8pay.sdk.api.Q8payResponse']]" />
+  <remove-node path="/api/package[@name='it.q8.q8pay.sdk.api']/class[@name='Q8PayJWTAuth']/method[@name='requestCode' and count(parameter)=5 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='java.lang.String'] and parameter[3][@type='int'] and parameter[4][@type='int'] and parameter[5][@type='it.q8.q8pay.sdk.api.Q8payResponse']]" />
+  <remove-node path="/api/package[@name='it.q8.q8pay.sdk.api']/class[@name='Q8PayJWTAuth']/method[@name='getUserInfo' and count(parameter)=2 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='it.q8.q8pay.sdk.api.Q8payResponse']]" />
+  <remove-node path="/api/package[@name='it.q8.q8pay.sdk.api']/class[@name='Q8PayJWTAuth']/method[@name='getTransactions' and count(parameter)=5 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='java.lang.String'] and parameter[3][@type='java.lang.String'] and parameter[4][@type='it.q8.q8pay.sdk.api.model.Q8payPeriod'] and parameter[5][@type='it.q8.q8pay.sdk.api.Q8payResponse']]" />
+  <remove-node path="/api/package[@name='it.q8.q8pay.sdk.api']/class[@name='Q8PayJWTAuth']/method[@name='getTransactions' and count(parameter)=6 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='int'] and parameter[3][@type='java.lang.String'] and parameter[4][@type='java.lang.String'] and parameter[5][@type='it.q8.q8pay.sdk.api.model.Q8payPeriod'] and parameter[6][@type='it.q8.q8pay.sdk.api.Q8payResponse']]" />
+  <remove-node path="/api/package[@name='it.q8.q8pay.sdk.api']/class[@name='Q8PayJWTAuth']/method[@name='getCodeStatus' and count(parameter)=3 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='java.lang.String'] and parameter[3][@type='it.q8.q8pay.sdk.api.Q8payResponse']]" />
+  <remove-node path="/api/package[@name='it.q8.q8pay.sdk.api']/class[@name='Q8PayJWTAuth']/method[@name='getCodeHistory' and count(parameter)=3 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='java.lang.String'] and parameter[3][@type='it.q8.q8pay.sdk.api.Q8payResponse']]" />
+  <remove-node path="/api/package[@name='it.q8.q8pay.sdk.api']/class[@name='Q8PayJWTAuth']/method[@name='getCards' and count(parameter)=5 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='int'] and parameter[3][@type='java.lang.String'] and parameter[4][@type='java.lang.String'] and parameter[5][@type='it.q8.q8pay.sdk.api.Q8payResponse']]" />
+  <remove-node path="/api/package[@name='it.q8.q8pay.sdk.api']/class[@name='Q8PayJWTAuth']/method[@name='execute' and count(parameter)=0]" />
+  <remove-node path="/api/package[@name='it.q8.q8pay.sdk.api']/class[@name='Q8PayJWTAuth']/method[@name='device' and count(parameter)=2 and parameter[1][@type='java.lang.String'] and parameter[2][@type='it.q8.q8pay.sdk.api.Q8payResponse']]" />
+  <remove-node path="/api/package[@name='it.q8.q8pay.sdk.api']/class[@name='Q8PayJWTAuth']/method[@name='getTag' and count(parameter)=0]" />
+  <remove-node path="/api/package[@name='it.q8.q8pay.sdk.api']/class[@name='Q8PayJWTAuth']/method[@name='ThresholdType' and count(parameter)=0]" />
+
+  
+
+
+  <remove-node path="/api/package[@name='it.q8.q8pay.sdk.api']/class[@name='Q8payAPI']/method[@name='getTag' and count(parameter)=0]" />  <remove-node path="/api/package[@name='it.q8.q8pay.sdk.api']/class[@name='Q8payAPI']/method[@name='undoCode' and count(parameter)=4 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='java.lang.String'] and parameter[3][@type='java.lang.String'] and parameter[4][@type='it.q8.q8pay.sdk.api.Q8payResponse']]" />
+  <remove-node path="/api/package[@name='it.q8.q8pay.sdk.api']/class[@name='Q8payAPI']/method[@name='requestCode' and count(parameter)=5 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='java.lang.String'] and parameter[3][@type='int'] and parameter[4][@type='int'] and parameter[5][@type='it.q8.q8pay.sdk.api.Q8payResponse']]" />
+  <remove-node path="/api/package[@name='it.q8.q8pay.sdk.api']/class[@name='Q8payAPI']/method[@name='getUserInfo' and count(parameter)=2 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='it.q8.q8pay.sdk.api.Q8payResponse']]" />
+  <remove-node path="/api/package[@name='it.q8.q8pay.sdk.api']/class[@name='Q8payAPI']/method[@name='getTransactions' and count(parameter)=5 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='java.lang.String'] and parameter[3][@type='java.lang.String'] and parameter[4][@type='it.q8.q8pay.sdk.api.model.Q8payPeriod'] and parameter[5][@type='it.q8.q8pay.sdk.api.Q8payResponse']]" />
+  <remove-node path="/api/package[@name='it.q8.q8pay.sdk.api']/class[@name='Q8payAPI']/method[@name='getTransactions' and count(parameter)=6 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='int'] and parameter[3][@type='java.lang.String'] and parameter[4][@type='java.lang.String'] and parameter[5][@type='it.q8.q8pay.sdk.api.model.Q8payPeriod'] and parameter[6][@type='it.q8.q8pay.sdk.api.Q8payResponse']]" />
+  <remove-node path="/api/package[@name='it.q8.q8pay.sdk.api']/class[@name='Q8payAPI']/method[@name='getCodeStatus' and count(parameter)=3 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='java.lang.String'] and parameter[3][@type='it.q8.q8pay.sdk.api.Q8payResponse']]" />
+  <remove-node path="/api/package[@name='it.q8.q8pay.sdk.api']/class[@name='Q8payAPI']/method[@name='getCodeHistory' and count(parameter)=3 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='java.lang.String'] and parameter[3][@type='it.q8.q8pay.sdk.api.Q8payResponse']]" />
+  <remove-node path="/api/package[@name='it.q8.q8pay.sdk.api']/class[@name='Q8payAPI']/method[@name='getCards' and count(parameter)=5 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='int'] and parameter[3][@type='java.lang.String'] and parameter[4][@type='java.lang.String'] and parameter[5][@type='it.q8.q8pay.sdk.api.Q8payResponse']]" />
+  <remove-node path="/api/package[@name='it.q8.q8pay.sdk.api']/class[@name='Q8payAPI']/method[@name='execute' and count(parameter)=0]" />
+  <remove-node path="/api/package[@name='it.q8.q8pay.sdk.api']/class[@name='Q8payAPI']/method[@name='device' and count(parameter)=2 and parameter[1][@type='java.lang.String'] and parameter[2][@type='it.q8.q8pay.sdk.api.Q8payResponse']]" />-->
+
+  <!--<remove-node path="/api/package[@name='com.google.gson.internal']" />-->
+
+
+  <!--<attr path="/api/package[@name='android.support.annotation']" name="managedName" >Android.Support.Annotation</attr>
+  
+  
+  <attr path="/api/package[@name='com.google.gson']" name="managedName" >Google.Gson</attr>
+  <attr path="/api/package[@name='com.google.gson.annotations']" name="managedName" >Google.Gson.Annotations</attr>
+  <attr path="/api/package[@name='com.google.gson.stream']" name="managedName" >Google.Gson.Stream</attr>
+  <attr path="/api/package[@name='com.google.gson.reflect']" name="managedName" >Google.Gson.Reflect</attr>
+  <attr path="/api/package[@name='com.google.gson']/class[@name='JsonStreamParser']/method[@name='next']" name="managedReturn">Java.Lang.Object</attr>-->
+
+  <!--<attr path="/api/package[@name='it.q8.q8pay.sdk.api']" name="managedName" >IT.Q8.Q8pay.Sdk.Api</attr>
+  <attr path="/api/package[@name='it.q8.q8pay.sdk.api.model']" name="managedName" >IT.Q8.Q8pay.Sdk.Api.Model</attr>
+--> 
+  <!--<attr path="/api/package[@name='it.q8.q8pay.sdk']" name="managedName" >IT.Q8.Q8pay.Sdk</attr>
+  <attr path="/api/package[@name='it.q8.q8pay.sdk.api']/class[@name='Q8payApiMethod']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='it.q8.q8pay.sdk.api']/class[@name='Q8payApiWrap']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='it.q8.q8pay.sdk.api']/class[@name='Q8paySdkHttpClient']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='it.q8.q8pay.sdk.api']/class[@name='Q8payApiWrap']" name="managedName">Pappolo</attr>
+  <attr path="/api/package[@name='it.q8.q8pay.sdk.api']/class[@name='Q8payApiMethod']" name="managedName">Rifacciolo</attr>-->
+  <!--<remove-node  path="/api/package[@name='it.q8.q8pay.sdk.api']/class[@name='Q8payApiWrap']" />-->
+
+
+  <attr path="/api/package[@name='com.google.gson']" name="managedName" >Google.Gson</attr>
+  <attr path="/api/package[@name='it.q8.q8pay.sdk.api']/class[@name='Q8payApiMethod']" name="visibility">public</attr>
+  <attr path="/api/package[@name='it.q8.q8pay.sdk.api']/class[@name='Q8payApiWrap']" name="visibility">public</attr>
+  <attr path="/api/package[@name='it.q8.q8pay.sdk.api']/class[@name='Q8paySdkHttpHeader']" name="visibility">public</attr>
+  <attr path="/api/package[@name='it.q8.q8pay.sdk.api']/class[@name='Q8PayJWTAuth']" name="visibility">public</attr>
+  <attr path="/api/package[@name='it.q8.q8pay.sdk.api']/interface[@name='ApiCard']" name="visibility">public</attr>
+  <attr path="/api/package[@name='it.q8.q8pay.sdk.api']/interface[@name='ApiCode']" name="visibility">public</attr>
+  <attr path="/api/package[@name='it.q8.q8pay.sdk.api']/interface[@name='ApiCode']" name="visibility">public</attr>
+  
+
+  <attr path="/api/package[@name='it.q8.q8pay.sdk.api']/interface[@name='ApiTransaction']" name="visibility">public</attr>
+
+  <attr path="/api/package[@name='it.q8.q8pay.sdk.api']/class[@name='Q8payAPI']/method[@name='build' and count(parameter)=0]" name="visibility">public</attr>
+  <attr path="/api/package[@name='it.q8.q8pay.sdk.api']/class[@name='Q8PayJWTAuth.Builder']/method[@name='build' and count(parameter)=0]" name="visibility">public</attr>
+</metadata>
